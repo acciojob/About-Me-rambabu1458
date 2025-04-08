@@ -1,1 +1,56 @@
-
+.container{
+	background-color:lightgray;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.card{
+	background-color:white;
+	margin:8px;
+	padding:8px;
+}
+.left{
+	width:75%;
+	margin-right:10px;
+}
+.details{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+img{
+	width:100px;
+	height:100px;
+}
+.skills img{
+	width:16px;
+	height:16px;
+}
+.card{
+	display:flex;
+}
+.percentage{
+	align-content:end;
+	text-align:end;
+	
+}
+#file{
+	width:-webkit-fill-available;
+}
+.tech{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.tech span{
+	font-size:12px;
+	padding:4px;
+}
+h3{
+	text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+.bio{
+	margin: 0;
+    font-size: 14px;
+}
